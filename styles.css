@@ -1,0 +1,128 @@
+/* Global styles
+-------------------------*/
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+a {
+    color: #FFE66D;
+}
+a:hover {
+    text-decoration: none;
+}
+/* Profile
+-------------------------*/
+header {
+    background-color: #2F3061;
+    color: white;
+    padding: 1%;
+}
+header .content-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+header .content-wrap h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 6px #666666;
+}
+header .content-wrap h2 {
+    text-align: center;
+}
+/* Projects
+-------------------------*/
+.projects {
+  /*  background-color: #F7FFF7;*/
+    padding: 1%;
+    
+}
+
+.projects h2 {
+    text-align: center;
+}
+.projects a {
+    color: #000066;
+
+}
+.projects .btn {
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgb(47,48,97, 80%);
+}
+.projects .shivaniProjects
+{
+    width: 30%;
+    float: left;
+    padding: 1%;
+
+}
+.projects .shivaniProjects h3 {
+    text-align: center;
+}
+
+.projects .shivaniProjects .imgCon {
+    width: 90%;
+    margin: 0 auto;
+}
+.projects .shivaniProjects .imgCon img {
+    width: 100%;
+}
+/* Work Experience
+-------------------------*/
+.work-experience {
+   /* background-color: #A1C6D7;*/
+    padding: 1%;
+    clear: both;
+    width: 60%;
+    margin: 0 auto;
+}
+.work-experience h2 {
+    text-align: center;
+}
+.work-experience h3 {
+    text-align: center;
+}
+/* Education
+-------------------------*/
+.education {
+    text-align: center;
+    padding: 1%;
+    width: 60%;
+    margin: 0 auto;
+}
+.education h2 {
+    text-align: center;
+}
+footer {
+    padding: 1%;
+    background-color:  #2F3061;
+   
+
+}
+footer h2 {
+    color: white;
+    text-align: center;
+}
+footer ul {
+    width: 25%;
+    margin: 0 auto;
+}
+footer ul li {
+    list-style-type: none;
+}
+footer ul li a {
+color: white;
+
+
+}
